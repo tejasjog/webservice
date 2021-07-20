@@ -33,4 +33,7 @@ func main() {
 	fmt.Println(ptr, *ptr)
 	middleName = "Prakash1"
 	fmt.Println(ptr, *ptr)
+
+	const pi = 3.14
+	fmt.Println(pi)
 }
