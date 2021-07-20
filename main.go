@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	first = iota
-	second
+	first  = iota
+	second = iota
 )
 
 const (
