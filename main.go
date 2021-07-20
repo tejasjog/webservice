@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-const pi1 = 3.14
+const (
+	first  = 1
+	second = "second"
+)
 
 func main() {
 	var i int
@@ -44,5 +49,5 @@ func main() {
 	//do something
 	fmt.Println(float32(co) + 1.2)
 
-	fmt.Println(pi1)
+	fmt.Println(first, second)
 }
