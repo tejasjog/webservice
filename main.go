@@ -18,4 +18,7 @@ func main() {
 
 	c := complex(3, 4)
 	fmt.Println(c)
+
+	r, im := real(3), imag(4)
+	fmt.Println(r, im)
 }
