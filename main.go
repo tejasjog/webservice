@@ -36,4 +36,10 @@ func main() {
 
 	const pi = 3.14 // has to be initialized when declared and the value should be determinable at compile time
 	fmt.Println(pi)
+
+	const co = 3
+	fmt.Println(co + 3)
+	//do something
+	fmt.Println(co + 1.2)
+
 }
