@@ -22,7 +22,7 @@ func main() {
 	r, im := real(3), imag(4)
 	fmt.Println(r, im)
 
-	var lastName *string
+	var lastName *string = new(string)
 	*lastName = "Jog"
 	fmt.Println(lastName)
 }
