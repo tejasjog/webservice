@@ -5,8 +5,9 @@ import (
 )
 
 const (
-	first = iota + 6
+	first = iota
 	second
+	third
 )
 
 func main() {
@@ -49,5 +50,5 @@ func main() {
 	//do something
 	fmt.Println(float32(co) + 1.2)
 
-	fmt.Println(first, second)
+	fmt.Println(first, second, third)
 }
