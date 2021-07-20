@@ -40,6 +40,6 @@ func main() {
 	const co int = 3
 	fmt.Println(co + 3)
 	//do something
-	fmt.Println(co + 1.2)
+	fmt.Println(float32(co) + 1.2)
 
 }
