@@ -31,4 +31,6 @@ func main() {
 	fmt.Println(middleName)
 	ptr := &middleName
 	fmt.Println(ptr, *ptr)
+	middleName = "Prakash1"
+	fmt.Println(ptr, *ptr)
 }
