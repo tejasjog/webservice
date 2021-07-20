@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const pi1 = 3.14
+
 func main() {
 	var i int
 	i = 42
@@ -42,4 +44,5 @@ func main() {
 	//do something
 	fmt.Println(float32(co) + 1.2)
 
+	fmt.Println(pi1)
 }
