@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	first  = 1
-	second = "second"
+	first  = iota
+	second = iota
 )
 
 func main() {
