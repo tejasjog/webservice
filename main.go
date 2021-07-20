@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	first  = iota + 6
-	second = 2 << iota
+	first = iota + 6
+	second
 )
 
 func main() {
