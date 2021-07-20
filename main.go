@@ -9,4 +9,7 @@ func main() {
 
 	var f float32 = 3.14
 	fmt.Println(f)
+
+	firstName := "Tejas"
+	fmt.Println(firstName)
 }
