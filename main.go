@@ -15,4 +15,7 @@ func main() {
 
 	b := true
 	fmt.Println(b)
+
+	c := complex(3, 4)
+	fmt.Println(c)
 }
