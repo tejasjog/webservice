@@ -34,6 +34,6 @@ func main() {
 	middleName = "Prakash1"
 	fmt.Println(ptr, *ptr)
 
-	const pi = 3.14
+	const pi = 3.14 // has to be initialized when declared and the value should be determinable at compile time
 	fmt.Println(pi)
 }
