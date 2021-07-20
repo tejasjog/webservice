@@ -12,4 +12,7 @@ func main() {
 
 	firstName := "Tejas"
 	fmt.Println(firstName)
+
+	b := true
+	fmt.Println(b)
 }
