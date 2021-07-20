@@ -23,6 +23,6 @@ func main() {
 	fmt.Println(r, im)
 
 	var lastName *string
-	lastName = "Jog"
+	*lastName = "Jog"
 	fmt.Println(lastName)
 }
