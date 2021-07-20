@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello from a module Tejas")
+	var i int
+	i = 42
+	fmt.Println(i)
 }
