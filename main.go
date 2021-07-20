@@ -25,4 +25,5 @@ func main() {
 	var lastName *string = new(string)
 	*lastName = "Jog"
 	fmt.Println(lastName)
+	fmt.Println(*lastName)
 }
