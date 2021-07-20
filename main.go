@@ -21,4 +21,7 @@ func main() {
 
 	r, im := real(3), imag(4)
 	fmt.Println(r, im)
+
+	var lastName *string
+	fmt.Println(lastName)
 }
