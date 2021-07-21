@@ -100,5 +100,9 @@ func main() {
 	}
 
 	var u user
+	u.ID = 1
+	u.FirstName = "Tejas"
+	u.LastName = "Jog"
 	fmt.Println(u)
+	fmt.Println(u.FirstName)
 }
