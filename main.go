@@ -65,4 +65,8 @@ func main() {
 
 	arr2 := [3]int{1, 2, 3}
 	fmt.Println(arr2)
+
+	slice := arr[:]
+	fmt.Println(slice)
+
 }
