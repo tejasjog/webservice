@@ -90,4 +90,7 @@ func main() {
 	m["a"] = 9
 	fmt.Println(m["a"])
 
+	delete(m, "a")
+	fmt.Println(m)
+
 }
