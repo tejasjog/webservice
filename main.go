@@ -127,7 +127,7 @@ func main() {
 	startWebServer(port, 2)
 }
 
-func startWebServer(port int, numberOfRertries int) {
+func startWebServer(port, numberOfRertries int) {
 	fmt.Println("Starting server")
 	// do something
 	fmt.Println("Server started on port", port)
