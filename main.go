@@ -93,4 +93,12 @@ func main() {
 	delete(m, "a")
 	fmt.Println(m)
 
+	type user struct {
+		ID        int
+		FirstName string
+		LastName  string
+	}
+
+	var u user
+	fmt.Println(u)
 }
