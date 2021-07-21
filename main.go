@@ -125,8 +125,8 @@ func main() {
 
 	port := 3000
 
-	isStarted, err := startWebServer(port, 2)
-	fmt.Println(isStarted, err)
+	_, err := startWebServer(port, 2)
+	fmt.Println(err)
 }
 
 func startWebServer(port, numberOfRertries int) (bool, error) {
