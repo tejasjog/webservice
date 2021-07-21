@@ -3,7 +3,9 @@ package main
 import (
 	"errors"
 	"fmt"
+	"net/http"
 
+	"github.com/tejasjog/webservice/controllers"
 	"github.com/tejasjog/webservice/models"
 )
 
@@ -127,6 +129,9 @@ func main() {
 
 	_, err := startWebServer(port, 2)
 	fmt.Println(err)
+
+	controllers.RegisterController()
+	http.ListenAndServe(":3000", nil)
 }
 
 func startWebServer(port, numberOfRertries int) (bool, error) {
