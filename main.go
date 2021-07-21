@@ -87,4 +87,7 @@ func main() {
 	fmt.Println(m)
 	fmt.Println(m["a"])
 
+	m["a"] = 9
+	fmt.Println(m["a"])
+
 }
