@@ -55,4 +55,10 @@ func main() {
 	fmt.Println(float32(co) + 1.2)
 
 	fmt.Println(first, second, third, fourth)
+
+	var arr [3]int
+	arr[0] = 1
+	arr[1] = 2
+	arr[2] = 3
+	fmt.Println(arr)
 }
