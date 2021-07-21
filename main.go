@@ -83,4 +83,8 @@ func main() {
 
 	fmt.Println(slice2, slice3, slice4)
 
+	m := map[string]int{"a": 1}
+	fmt.Println(m)
+	fmt.Println(m["a"])
+
 }
