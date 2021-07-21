@@ -67,6 +67,8 @@ func main() {
 	fmt.Println(arr2)
 
 	slice := arr[:]
-	fmt.Println(slice)
+	arr[1] = 18
+	slice[2] = 79
+	fmt.Println(arr, slice)
 
 }
