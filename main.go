@@ -71,4 +71,7 @@ func main() {
 	slice[2] = 79
 	fmt.Println(arr, slice)
 
+	slice1 := []int{1, 2, 3}
+	fmt.Println(slice1)
+
 }
