@@ -121,4 +121,12 @@ func main() {
 	}
 
 	fmt.Println(u)
+
+	startWebServer()
+}
+
+func startWebServer() {
+	fmt.Println("Starting server")
+	// do something
+	fmt.Println("Server started")
 }
