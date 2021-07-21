@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/tejasjog/webservice/models"
 )
 
 const (
@@ -99,12 +101,12 @@ func main() {
 		LastName  string
 	}
 
-	var u user
-	u.ID = 1
-	u.FirstName = "Tejas"
-	u.LastName = "Jog"
-	fmt.Println(u)
-	fmt.Println(u.FirstName)
+	var u1 user
+	u1.ID = 1
+	u1.FirstName = "Tejas"
+	u1.LastName = "Jog"
+	fmt.Println(u1)
+	fmt.Println(u1.FirstName)
 
 	u2 := user{ID: 1,
 		FirstName: "Tejas",
@@ -112,4 +114,11 @@ func main() {
 	}
 	fmt.Println(u2)
 
+	u := models.User{
+		ID:        2,
+		FirstName: "Tricia",
+		LastName:  "McMillan",
+	}
+
+	fmt.Println(u)
 }
