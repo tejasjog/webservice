@@ -122,11 +122,13 @@ func main() {
 
 	fmt.Println(u)
 
-	startWebServer()
+	port := 3000
+
+	startWebServer(port)
 }
 
-func startWebServer() {
+func startWebServer(port int) {
 	fmt.Println("Starting server")
 	// do something
-	fmt.Println("Server started")
+	fmt.Println("Server started on port", port)
 }
