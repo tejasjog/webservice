@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 
 	"github.com/tejasjog/webservice/models"
@@ -133,5 +134,5 @@ func startWebServer(port, numberOfRertries int) error {
 	// do something
 	fmt.Println("Server started on port", port)
 	fmt.Println("Number of rertries", numberOfRertries)
-	return nil
+	return errors.New("Something went wrong")
 }
