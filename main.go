@@ -162,10 +162,26 @@ func main() {
 		println(v)
 	}
 
-	port := 3000
+	user1 := user{
+		ID:        1,
+		FirstName: "Tejas",
+		LastName:  "Jog",
+	}
 
-	_, err := startWebServer(port, 2)
-	fmt.Println(err)
+	user2 := user{
+		ID:        2,
+		FirstName: "tejas",
+		LastName:  "jog",
+	}
+
+	if user1.ID == user2.ID {
+		println("same user")
+	}
+
+	//port := 3000
+
+	//_, err := startWebServer(port, 2)
+	//fmt.Println(err)
 
 	//controllers.RegisterController()
 	//http.ListenAndServe(":3000", nil)
@@ -174,7 +190,7 @@ func main() {
 
 func startWebServer(port, numberOfRertries int) (bool, error) {
 	fmt.Println("Starting server")
-	panic("Something bad just happened")
+	//panic("Something bad just happened")
 	fmt.Println("Server started on port", port)
 	fmt.Println("Number of rertries", numberOfRertries)
 	return false, errors.New("Something went wrong")
