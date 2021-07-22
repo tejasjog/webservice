@@ -132,9 +132,8 @@ func main() {
 	//http.ListenAndServe(":3000", nil)
 
 	var i int
-	for i < 5 {
+	for ; i < 5; i++ {
 		println(i)
-		i++
 		if i == 4 {
 			break
 		}
