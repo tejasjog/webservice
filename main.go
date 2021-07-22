@@ -135,6 +135,9 @@ func main() {
 	for i < 5 {
 		println(i)
 		i++
+		if i == 3 {
+			break
+		}
 	}
 
 }
