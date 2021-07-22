@@ -135,9 +135,13 @@ func main() {
 	for i < 5 {
 		println(i)
 		i++
-		if i == 3 {
+		if i == 4 {
 			break
 		}
+		if i == 3 {
+			continue
+		}
+		println("continuing ... ")
 	}
 
 }
