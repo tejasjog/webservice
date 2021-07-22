@@ -123,14 +123,6 @@ func main() {
 
 	fmt.Println(u)
 
-	//port := 3000
-
-	//_, err := startWebServer(port, 2)
-	//fmt.Println(err)
-
-	//controllers.RegisterController()
-	//http.ListenAndServe(":3000", nil)
-
 	for i := 0; i < 5; i++ {
 		println(i)
 		if i == 4 {
@@ -170,11 +162,19 @@ func main() {
 		println(v)
 	}
 
+	port := 3000
+
+	_, err := startWebServer(port, 2)
+	fmt.Println(err)
+
+	//controllers.RegisterController()
+	//http.ListenAndServe(":3000", nil)
+
 }
 
 func startWebServer(port, numberOfRertries int) (bool, error) {
 	fmt.Println("Starting server")
-	// do something
+	panic("Something bad just happened")
 	fmt.Println("Server started on port", port)
 	fmt.Println("Number of rertries", numberOfRertries)
 	return false, errors.New("Something went wrong")
