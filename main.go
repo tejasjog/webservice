@@ -152,8 +152,8 @@ func main() {
 	}
 
 	slice5 := []int{1, 2, 3}
-	for k := 0; k < len(slice5); k++ {
-		println(slice5[k])
+	for k, val := range slice5 {
+		println(k, val)
 	}
 
 }
