@@ -150,6 +150,12 @@ func main() {
 		println(j)
 		j++
 	}
+
+	slice5 := []int{1, 2, 3}
+	for k := 0; k < len(slice5); k++ {
+		println(slice5[k])
+	}
+
 }
 
 func startWebServer(port, numberOfRertries int) (bool, error) {
