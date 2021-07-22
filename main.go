@@ -142,6 +142,14 @@ func main() {
 		println("continuing ... ")
 	}
 
+	var j int
+	for {
+		if j == 5 {
+			break
+		}
+		println(j)
+		j++
+	}
 }
 
 func startWebServer(port, numberOfRertries int) (bool, error) {
