@@ -3,9 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"net/http"
 
-	"github.com/tejasjog/webservice/controllers"
 	"github.com/tejasjog/webservice/models"
 )
 
@@ -20,9 +18,9 @@ const (
 )
 
 func main() {
-	var i int
-	i = 42
-	fmt.Println(i)
+	var ii int
+	ii = 42
+	fmt.Println(ii)
 
 	var f float32 = 3.14
 	fmt.Println(f)
@@ -125,13 +123,20 @@ func main() {
 
 	fmt.Println(u)
 
-	port := 3000
+	//port := 3000
 
-	_, err := startWebServer(port, 2)
-	fmt.Println(err)
+	//_, err := startWebServer(port, 2)
+	//fmt.Println(err)
 
-	controllers.RegisterController()
-	http.ListenAndServe(":3000", nil)
+	//controllers.RegisterController()
+	//http.ListenAndServe(":3000", nil)
+
+	var i int
+	for i < 5 {
+		println(i)
+		i++
+	}
+
 }
 
 func startWebServer(port, numberOfRertries int) (bool, error) {
