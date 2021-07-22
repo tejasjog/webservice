@@ -156,6 +156,11 @@ func main() {
 		println(k, val)
 	}
 
+	wellKnownPorts := map[string]int{"http": 80, "https": 443}
+	for k, v := range wellKnownPorts {
+		println(k, v)
+	}
+
 }
 
 func startWebServer(port, numberOfRertries int) (bool, error) {
