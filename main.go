@@ -174,8 +174,8 @@ func main() {
 		LastName:  "jog",
 	}
 
-	if user1.ID == user2.ID {
-		println("same user")
+	if user1.ID != user2.ID {
+		println("not same user")
 	}
 
 	//port := 3000
