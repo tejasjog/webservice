@@ -157,8 +157,17 @@ func main() {
 	}
 
 	wellKnownPorts := map[string]int{"http": 80, "https": 443}
+
 	for k, v := range wellKnownPorts {
 		println(k, v)
+	}
+
+	for k := range wellKnownPorts {
+		println(k)
+	}
+
+	for _, v := range wellKnownPorts {
+		println(v)
 	}
 
 }
