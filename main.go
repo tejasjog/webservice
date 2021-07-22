@@ -131,8 +131,7 @@ func main() {
 	//controllers.RegisterController()
 	//http.ListenAndServe(":3000", nil)
 
-	var i int
-	for ; i < 5; i++ {
+	for i := 0; i < 5; i++ {
 		println(i)
 		if i == 4 {
 			break
